@@ -1,0 +1,28 @@
+import { Component } from "react";
+import "./DestinationStyles.css";
+import img1 from "../assets/destert1.jpg";
+import img2 from "../assets/nature06.jpg";
+
+
+
+class DestinationData extends Component {
+  render() {
+    return (
+      <div className={this.props.className}>
+        <div className="des-text">
+          <h2>{this.props.heading}</h2>
+          <p>{this.props.text}</p>
+        </div>
+        <div className="image">
+        <img alt="img" src={img1} />
+          <img alt="img" src={img2} />
+     
+        </div>
+      </div>
+    );
+  }
+}
+
+export default DestinationData;
+
+

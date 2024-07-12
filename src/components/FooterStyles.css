@@ -1,0 +1,131 @@
+.footer {
+    padding: 4rem 6rem;
+    background-color: #000;
+    color: #fff;
+  }
+      
+  .top {
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .top i {
+    color: #fff;
+    font-size: 2rem;
+    margin-left: 1rem;
+  }
+  .top i:hover {
+    color: #fff;
+  }
+  
+  .bottom {
+    padding-top: 2rem;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 5px;
+  }
+  .buttom div {
+    display: flex;
+    flex-direction: column;
+  }
+  .bottom h4 {
+    font: size 1.3rem;
+    padding: 1rem 0 0.8rem 0;
+  }
+  .bottom a {
+    text-decoration: none;
+    color: #fafafa;
+    padding-bottom: 0.4rem;
+  
+    font-size: 1.1rem;
+  }
+  @media screen and (max-width: 850px) {
+    .footer {
+      padding: 4rem 2rem;
+    }
+    .footer i {
+      margin: 1rem 1rem 0 0;
+    }
+    .bottom div {
+      width: 50%;
+    }
+  }
+  .fa fa-instagram{
+  font-size:48px;
+  color:red;
+  }
+  .soicon i:hover {
+color: #ff4838;
+
+transform: scale(1.5);
+  }
+
+ .footer-widget {
+  color: #fff
+}
+
+ .footer-widget .footer-widget-title {
+  font-family: var(--f-primary);
+  font-weight: 700;
+  font-size: 25px;
+  color: #fff;
+  padding-bottom: 5px;
+  cursor: pointer;
+  
+  
+}
+
+.footer-widget .footer-links li {
+  padding-top: 12px
+}
+
+ .footer-widget .footer-links li a {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: .02em;
+  color: #fff;
+  position: relative;
+  transition: all .35s
+}
+
+ .footer-widget .footer-links li a:hover {
+  transform: translateX(14px)
+}
+ .footer-widget .footer-links li a:hover::before {
+  opacity: 1
+}
+
+ .footer-widget .footer-links li a::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  transform: translateY(-50%);
+  left: -12px;
+  height: 5px;
+  width: 5px;
+  color: #ff4838;
+  border-radius: 50%;
+  opacity: 0;
+  transition: all .35s
+}
+.footer-widget .footer-links a:hover{
+  color: #ff4838;
+}
+
+ .titleto h1{
+   margin-left: 30px; 
+    transform: scale(1.5);
+    font-weight: 800;
+    cursor: pointer;
+
+
+ }
+.titleto p:hover{
+  color: #ff4838;
+  font-weight: 900;
+} 

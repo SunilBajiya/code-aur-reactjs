@@ -1,0 +1,191 @@
+@media (max-width:991px) {
+    .pt-120{
+        padding-top:  80px;
+    }
+    
+}
+@media (max-width:576px) {
+    .container{
+        max-width:  540px;
+    }
+    
+}
+.container{
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;  
+}
+
+.g-4 ,.gy-4{
+    --bs-gutter-y: 1.5rem;
+}
+
+.g-4 ,.gy-4{
+    --bs-gutter-x: 1.5rem;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+}
+
+ @media (min-width:576px) {
+    .col-sm-6{
+        flex: 0 0 auto;
+        width: 50%;
+    }
+ }
+
+.blog-card{
+    box-shadow: 0 0 30px hsla(0,0%,7%,.08);
+    border-radius: 0 0 3px 3px;
+}
+.blog-card .blog-img img{
+    width: 100%;
+    transition:  all .4s;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+img{
+    vertical-align: middle;
+}
+
+@media only screen and (min-width: 575.98px)
+and (max-width:767px) {
+    .blog-card .blog-img .blog-date {
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+
+}
+.blog-card .blog-img .blog-date {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius:  0 0  5px 5px;
+    background: #304f47;
+    position: absolute;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.blog-card .blog-img .blog-date i{
+    color: #ff7f47;
+    margin-right: 6px;
+}
+.blog-card .blog-details {
+    padding: 25px 20px; 
+}
+i[class^=flaticon-]:before {
+    font-family: flaticon!important;
+    font-style: normal;
+    font-weight: 400!important;
+    font-feature-settings: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.blog-card .blog-details .blog-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (min-width:575.98px) and (max-width:767) {
+    .blog-card .blog-details .blog-info a.blog-comment, .blog-card .blog-details .blog-info a.blog-write {
+        font-size: 13px;
+    }
+
+}
+.blog-card .blog-details .blog-info a.blog-comment, .blog-card .blog-details .blog-info a.blog-write {
+    display: flex;
+    align-items: center;
+    font-family: work Sans,sans-serif;
+    font-weight: 500;
+    line-height: 17px;
+    color: #262339;
+
+}
+.blog-card .blog-details .blog-info a.blog-comment, .blog-card .blog-details .blog-info a.blog-write i  {
+    color: #ff7f47;
+    margin-right: 5px;
+    font-size: 16px;
+}
+a{
+    text-decoration: none !important;
+    text-decoration: underline;
+
+}
+.blog-card .blog-details .blog-info a.blog-comment i:before {
+    vertical-align: middle;
+}
+i[class^=flaticon-]:before {
+    font-family: flaticon!important;
+    font-style: normal;
+    font-weight: 400!important;
+    font-feature-settings: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}.flaticon-comment:before {
+    content: "\f10c";
+}
+@media (min-width:575.98px) and (max-width:767){
+    .blog-card .blog-details a.blog-title {
+        font-size: 15px;
+        line-height: 24px;
+        margin: 20px 0;
+    }
+}
+.blog-card .blog-details a.blog-title{
+    margin: 20px 0;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #262339;
+    display: inline-block;
+    transition: .3s;
+}
+
+a.btn-common-sm{
+    display: inline-block;
+    padding: 11px 20px 11px 30px;
+    background: 304f47;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #fff;
+    position: relative;
+    z-index: 9;
+}
+a.btn-common-sm:before {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    content: "";
+    background: #ff7f47;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    -webkit-clip-path: circle(27% at -3% 50%);
+    clip-path: circle(27% at -3% 50%);
+    transition: all .4s;
+    z-index: -1;
+}
+*,::after ::before{
+    box-sizing: border-box;
+}
